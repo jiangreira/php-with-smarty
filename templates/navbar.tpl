@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="home.php">Laravel Practice</a>
+    <a class="navbar-brand" href="list.php">Laravel Practice</a>
     <span class="text-info d-none d-lg-block">Hi,{$smarty.session.username}</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
