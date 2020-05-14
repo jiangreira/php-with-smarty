@@ -3,7 +3,7 @@ session_start();
 $db = new PDO('mysql:host=localhost;dbname=Test_04;charset=utf8', 'root', 'kuma0315');
 require '../libs/Smarty.class.php';
 $smarty = new Smarty;
-$smarty->debugging = true;
+// $smarty->debugging = true;
 
 $sql='SELECT iddetail,Period FROM detail';
 $rows=$db->query($sql)->fetchALL(PDO::FETCH_ASSOC);
